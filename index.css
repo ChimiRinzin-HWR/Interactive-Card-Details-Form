@@ -211,7 +211,7 @@ footer{
         position: relative;
     }
     .frontcard, .backcard{
-        max-width: 23rem;
+        max-width: auto;
     }
     .frontcard, .backcard{
         position: absolute;
@@ -232,7 +232,7 @@ footer{
     }
     .backcard{
         top: 8.7%;
-        width: 68vw;
+        width: 71vw;
         left:calc(15% + 4vw);
     }
     .cvcsh{
