@@ -219,7 +219,7 @@ footer{
     }
     .frontcard{
         z-index: 1;
-        width: 68vw;
+        width: 72vw;
         top: 50%;
         left:calc(2% + 2vw);
     }
@@ -232,7 +232,7 @@ footer{
     }
     .backcard{
         top: 8.7%;
-        width: 71vw;
+        width: 72vw;
         left:calc(15% + 4vw);
     }
     .cvcsh{
