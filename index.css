@@ -207,7 +207,7 @@ footer{
         height: 70%;
         background-image: url(./images/bg-main-mobile.png);
         background-repeat: no-repeat;
-        background-size: 31rem 40rem;
+        background-size: cover;
         position: relative;
     }
     .frontcard, .backcard{
@@ -219,19 +219,20 @@ footer{
     }
     .frontcard{
         z-index: 1;
-        width: 100%;
+        width: 68vw;
         top: 50%;
         left:calc(2% + 2vw);
     }
     .carddetails{
         padding: calc(4.5vw);
         h1{
-            font-size: calc(100% + 2.5vw);
+            font-size: calc(100% + 2vw);
             font-weight:400;
         }
     }
     .backcard{
         top: 8.7%;
+        width: 68vw;
         left:calc(15% + 4vw);
     }
     .cvcsh{
