@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive card details form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: red;
+      }
+      .attribution a {
+        color: hsl(34, 100%, 50%);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <div class="frontcard">
+          <img
+            class="front"
+            src="./images/bg-card-front.png"
+            alt="Front of the Card"
+          />
+          <div class="carddetails">
+            <img class="logo" src="./images/card-logo.svg" alt="" />
+            <div class="carddetails1">
+              <h1 class="cardsh">0000 0000 0000 0000</h1>
+              <div class="cardbot">
+                <p class="namesh">Jane Appleseed</p>
+                <p class="expsh">00/00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="backcard">
+          <img
+            class="back"
+            src="./images/bg-card-back.png"
+            alt="Back of the Card"
+          />
+          <p class="cvcsh">000</p>
+        </div>
+      </section>
+      <div class="formside">
+        <form>
+          <div class="first">
+            <p class="inputheaders">CardHolder name</p>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="e.g. Jane Appleseed"
+            />
+            <p class="error namee">Can't be blank</p>
+          </div>
+          <div class="second">
+            <p class="inputheaders">Card number</p>
+            <input
+              type="text"
+              id="cardnumber"
+              placeholder="e.g. 1234 5678 9123 0000"
+            />
+            <p class="error carde">Can't be blank</p>
+            <p class="error cardw">Wrong format, numbers only</p>
+            <p class="error cardw1">Sixteen digits required!</p>
+          </div>
+          <div class="last">
+            <div class="last1">
+              <p class="inputheaders">Exp. Date (MM/YY)</p>
+              <div class="last1main">
+                <input type="number" id="month" placeholder="MM" />
+                <input type="number" id="year" placeholder="YY" />
+              </div>
+              <p class="error datee">Can't be blank</p>
+            </div>
+            <div class="last2">
+              <p class="inputheaders">CVC</p>
+              <input type="number" id="cvc" placeholder="e.g. 123" />
+              <p class="error cvce">Can't be blank</p>
+            </div>
+          </div>
+          <button class="confirm">Confirm</button>
+        </form>
+      </div>
+      <!-- Completed state start -->
+      <header>
+        <div>
+          <img src="./images/icon-complete.svg" alt="" />
+          <h1>Thank you!</h1>
+          <p>We've added your card details</p>
+          <button class="continue">Continue</button>
+        </div>
+      </header>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.linkedin.com/in/chimi-rinzin-20178a291/"
+          >Chimi Rinzin</a
+        >.
+      </div>
+    </footer>
+  </body>
+  <script src="./index.js"></script>
+</html>
