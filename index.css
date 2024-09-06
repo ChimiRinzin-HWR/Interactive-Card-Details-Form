@@ -226,7 +226,7 @@ footer{
     .carddetails{
         padding: calc(4.5vw);
         h1{
-            font-size: calc(100% + 2vw);
+            font-size: calc(5vw);
             font-weight:400;
         }
     }
@@ -301,10 +301,5 @@ footer{
     }
     .first, .second, .last{
         margin: 0 0 1.5rem;
-    }
-    footer{
-        position: absolute;
-        top: 0;
-        left: 25%;
     }
 }
